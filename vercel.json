@@ -1,3 +1,4 @@
+
 {
   "functions": {
     "api/*.php": {
@@ -7,10 +8,10 @@
   "routes": [
     {
       "src": "^/$",
-      "dest": "/api/index.php"
+      "dest": "/NOMAS.html"
     },
     {
-      "src": "^/(.*\\.php)$",
+      "src": "^/api/(.*)$",
       "dest": "/api/$1"
     }
   ]
